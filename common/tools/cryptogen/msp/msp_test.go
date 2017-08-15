@@ -20,9 +20,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/tools/cryptogen/ca"
-	"github.com/hyperledger/fabric/common/tools/cryptogen/msp"
-	fabricmsp "github.com/hyperledger/fabric/msp"
+	"github.com/slava-balahontsev/bcnex/common/tools/cryptogen/ca"
+	"github.com/slava-balahontsev/bcnex/common/tools/cryptogen/msp"
+	fabricmsp "github.com/slava-balahontsev/bcnex/msp"
 	"github.com/stretchr/testify/assert"
 )
 

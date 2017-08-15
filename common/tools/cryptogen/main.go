@@ -29,9 +29,9 @@ import (
 	"bytes"
 	"io/ioutil"
 
-	"github.com/hyperledger/fabric/common/tools/cryptogen/ca"
-	"github.com/hyperledger/fabric/common/tools/cryptogen/metadata"
-	"github.com/hyperledger/fabric/common/tools/cryptogen/msp"
+	"github.com/slava-balahontsev/bcnex/common/tools/cryptogen/ca"
+	"github.com/slava-balahontsev/bcnex/common/tools/cryptogen/metadata"
+	"github.com/slava-balahontsev/bcnex/common/tools/cryptogen/msp"
 )
 
 const (

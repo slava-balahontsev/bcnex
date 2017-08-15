@@ -20,9 +20,9 @@ import (
 	"crypto/ecdsa"
 	"crypto/x509"
 
-	"github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric/bccsp/factory"
-	"github.com/hyperledger/fabric/bccsp/signer"
+	"github.com/slava-balahontsev/bcnex/bccsp"
+	"github.com/slava-balahontsev/bcnex/bccsp/factory"
+	"github.com/slava-balahontsev/bcnex/bccsp/signer"
 )
 
 // GeneratePrivateKey creates a private key and stores it in keystorePath
