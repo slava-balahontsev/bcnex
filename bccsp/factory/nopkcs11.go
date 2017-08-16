@@ -20,7 +20,7 @@ package factory
 import (
 	"fmt"
 
-	"github.com/hyperledger/fabric/bccsp"
+	"github.com/slava-balahontsev/bcnex/bccsp"
 )
 
 type FactoryOpts struct {

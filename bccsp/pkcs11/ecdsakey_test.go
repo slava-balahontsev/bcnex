@@ -22,8 +22,8 @@ import (
 	"crypto/x509"
 	"testing"
 
-	"github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric/bccsp/utils"
+	"github.com/slava-balahontsev/bcnex/bccsp"
+	"github.com/slava-balahontsev/bcnex/bccsp/utils"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -20,7 +20,7 @@ import (
 
 	"crypto/sha256"
 
-	"github.com/hyperledger/fabric/bccsp"
+	"github.com/slava-balahontsev/bcnex/bccsp"
 )
 
 type aesPrivateKey struct {
