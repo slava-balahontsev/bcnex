@@ -17,10 +17,10 @@ limitations under the License.
 package msptesttools
 
 import (
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/core/config"
-	"github.com/hyperledger/fabric/msp"
-	"github.com/hyperledger/fabric/msp/mgmt"
+	"github.com/slava-balahontsev/bcnex/common/util"
+	"github.com/slava-balahontsev/bcnex/core/config"
+	"github.com/slava-balahontsev/bcnex/msp"
+	"github.com/slava-balahontsev/bcnex/msp/mgmt"
 )
 
 // LoadTestMSPSetup sets up the local MSP

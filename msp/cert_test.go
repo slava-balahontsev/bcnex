@@ -28,7 +28,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/bccsp/sw"
+	"github.com/slava-balahontsev/bcnex/bccsp/sw"
 	"github.com/stretchr/testify/assert"
 )
 

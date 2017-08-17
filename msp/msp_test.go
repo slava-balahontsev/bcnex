@@ -25,10 +25,10 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric/bccsp/sw"
-	"github.com/hyperledger/fabric/core/config"
-	"github.com/hyperledger/fabric/protos/msp"
+	"github.com/slava-balahontsev/bcnex/bccsp"
+	"github.com/slava-balahontsev/bcnex/bccsp/sw"
+	"github.com/slava-balahontsev/bcnex/core/config"
+	"github.com/slava-balahontsev/bcnex/protos/msp"
 	"github.com/stretchr/testify/assert"
 )
 

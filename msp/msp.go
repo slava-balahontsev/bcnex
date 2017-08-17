@@ -7,7 +7,7 @@ SPDX-License-Identifier: Apache-2.0
 package msp
 
 import (
-	"github.com/hyperledger/fabric/protos/msp"
+	"github.com/slava-balahontsev/bcnex/protos/msp"
 )
 
 // FIXME: we need better comments on the interfaces!!
@@ -27,7 +27,7 @@ type IdentityDeserializer interface {
 //
 // By "membership service provider" we refer to an abstract component of the
 // system that would provide (anonymous) credentials to clients, and peers for
-// them to participate in Hyperledger/fabric network. Clients use these
+// them to participate in slava-balahontsev/bcnex network. Clients use these
 // credentials to authenticate their transactions, and peers use these credentials
 // to authenticate transaction processing results (endorsements). While
 // strongly connected to the transaction processing components of the systems,

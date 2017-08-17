@@ -27,7 +27,7 @@ import (
 
 	"errors"
 
-	"github.com/hyperledger/fabric/bccsp/sw"
+	"github.com/slava-balahontsev/bcnex/bccsp/sw"
 )
 
 type dsaSignature struct {
