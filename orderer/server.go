@@ -17,12 +17,12 @@ limitations under the License.
 package main
 
 import (
-	"github.com/hyperledger/fabric/common/crypto"
-	"github.com/hyperledger/fabric/orderer/common/broadcast"
-	"github.com/hyperledger/fabric/orderer/common/deliver"
-	"github.com/hyperledger/fabric/orderer/configupdate"
-	"github.com/hyperledger/fabric/orderer/multichain"
-	ab "github.com/hyperledger/fabric/protos/orderer"
+	"github.com/slava-balahontsev/bcnex/common/crypto"
+	"github.com/slava-balahontsev/bcnex/orderer/common/broadcast"
+	"github.com/slava-balahontsev/bcnex/orderer/common/deliver"
+	"github.com/slava-balahontsev/bcnex/orderer/configupdate"
+	"github.com/slava-balahontsev/bcnex/orderer/multichain"
+	ab "github.com/slava-balahontsev/bcnex/protos/orderer"
 
 	"runtime/debug"
 )

@@ -17,8 +17,8 @@ limitations under the License.
 package mocks
 
 import (
-	"github.com/hyperledger/fabric/orderer/common/filter"
-	cb "github.com/hyperledger/fabric/protos/common"
+	"github.com/slava-balahontsev/bcnex/orderer/common/filter"
+	cb "github.com/slava-balahontsev/bcnex/protos/common"
 )
 
 import (

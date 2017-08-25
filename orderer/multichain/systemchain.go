@@ -19,12 +19,12 @@ package multichain
 import (
 	"fmt"
 
-	"github.com/hyperledger/fabric/common/config"
-	"github.com/hyperledger/fabric/common/configtx"
-	configtxapi "github.com/hyperledger/fabric/common/configtx/api"
-	"github.com/hyperledger/fabric/orderer/common/filter"
-	cb "github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/slava-balahontsev/bcnex/common/config"
+	"github.com/slava-balahontsev/bcnex/common/configtx"
+	configtxapi "github.com/slava-balahontsev/bcnex/common/configtx/api"
+	"github.com/slava-balahontsev/bcnex/orderer/common/filter"
+	cb "github.com/slava-balahontsev/bcnex/protos/common"
+	"github.com/slava-balahontsev/bcnex/protos/utils"
 
 	"github.com/golang/protobuf/proto"
 )

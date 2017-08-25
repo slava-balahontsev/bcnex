@@ -4,7 +4,7 @@ The Hyperledger Fabric ordering service provides an atomic broadcast ordering se
 
 ## Protocol definition
 
-The atomic broadcast ordering protocol for Hyperledger Fabric is described in `hyperledger/fabric/protos/orderer/ab.proto`. There are two services: the `Broadcast` service for injecting messages into the system and the `Deliver` service for receiving ordered batches from the service.
+The atomic broadcast ordering protocol for Hyperledger Fabric is described in `slava-balahontsev/bcnex/protos/orderer/ab.proto`. There are two services: the `Broadcast` service for injecting messages into the system and the `Deliver` service for receiving ordered batches from the service.
 
 ## Service types
 
@@ -38,7 +38,7 @@ This can be set by setting the `ORDERER_GENERAL_LEDGERTYPE` environment variable
 
 ## Experimenting with the orderer service
 
-To experiment with the orderer service you may build the orderer binary by simply typing `go build` in the `hyperledger/fabric/orderer` directory. You may then invoke the orderer binary with no parameters, or you can override the bind address, port, and backing ledger by setting the environment variables `ORDERER_GENERAL_LISTENADDRESS`, `ORDERER_GENERAL_ LISTENPORT` and `ORDERER_GENERAL_LEDGER_TYPE` respectively.
+To experiment with the orderer service you may build the orderer binary by simply typing `go build` in the `slava-balahontsev/bcnex/orderer` directory. You may then invoke the orderer binary with no parameters, or you can override the bind address, port, and backing ledger by setting the environment variables `ORDERER_GENERAL_LISTENADDRESS`, `ORDERER_GENERAL_ LISTENPORT` and `ORDERER_GENERAL_LEDGER_TYPE` respectively.
 
 There are sample clients in the `fabric/orderer/sample_clients` directory.
 

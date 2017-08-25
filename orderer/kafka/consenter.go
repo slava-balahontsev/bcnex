@@ -8,10 +8,10 @@ package kafka
 
 import (
 	"github.com/Shopify/sarama"
-	"github.com/hyperledger/fabric/common/flogging"
-	localconfig "github.com/hyperledger/fabric/orderer/localconfig"
-	"github.com/hyperledger/fabric/orderer/multichain"
-	cb "github.com/hyperledger/fabric/protos/common"
+	"github.com/slava-balahontsev/bcnex/common/flogging"
+	localconfig "github.com/slava-balahontsev/bcnex/orderer/localconfig"
+	"github.com/slava-balahontsev/bcnex/orderer/multichain"
+	cb "github.com/slava-balahontsev/bcnex/protos/common"
 	logging "github.com/op/go-logging"
 )
 

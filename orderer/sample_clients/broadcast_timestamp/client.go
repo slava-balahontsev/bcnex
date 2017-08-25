@@ -22,11 +22,11 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/configtx/tool/provisional"
-	"github.com/hyperledger/fabric/orderer/localconfig"
-	cb "github.com/hyperledger/fabric/protos/common"
-	ab "github.com/hyperledger/fabric/protos/orderer"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/slava-balahontsev/bcnex/common/configtx/tool/provisional"
+	"github.com/slava-balahontsev/bcnex/orderer/localconfig"
+	cb "github.com/slava-balahontsev/bcnex/protos/common"
+	ab "github.com/slava-balahontsev/bcnex/protos/orderer"
+	"github.com/slava-balahontsev/bcnex/protos/utils"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 )

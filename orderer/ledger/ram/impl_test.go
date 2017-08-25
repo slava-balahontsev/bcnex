@@ -19,10 +19,10 @@ package ramledger
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/common/configtx/tool/provisional"
-	"github.com/hyperledger/fabric/orderer/ledger"
-	cb "github.com/hyperledger/fabric/protos/common"
-	ab "github.com/hyperledger/fabric/protos/orderer"
+	"github.com/slava-balahontsev/bcnex/common/configtx/tool/provisional"
+	"github.com/slava-balahontsev/bcnex/orderer/ledger"
+	cb "github.com/slava-balahontsev/bcnex/protos/common"
+	ab "github.com/slava-balahontsev/bcnex/protos/orderer"
 
 	logging "github.com/op/go-logging"
 )

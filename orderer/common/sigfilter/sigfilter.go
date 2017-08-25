@@ -17,9 +17,9 @@ limitations under the License.
 package sigfilter
 
 import (
-	"github.com/hyperledger/fabric/common/policies"
-	"github.com/hyperledger/fabric/orderer/common/filter"
-	cb "github.com/hyperledger/fabric/protos/common"
+	"github.com/slava-balahontsev/bcnex/common/policies"
+	"github.com/slava-balahontsev/bcnex/orderer/common/filter"
+	cb "github.com/slava-balahontsev/bcnex/protos/common"
 
 	"github.com/op/go-logging"
 )

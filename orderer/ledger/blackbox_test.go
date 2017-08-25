@@ -21,9 +21,9 @@ import (
 	"reflect"
 	"testing"
 
-	. "github.com/hyperledger/fabric/orderer/ledger"
-	cb "github.com/hyperledger/fabric/protos/common"
-	ab "github.com/hyperledger/fabric/protos/orderer"
+	. "github.com/slava-balahontsev/bcnex/orderer/ledger"
+	cb "github.com/slava-balahontsev/bcnex/protos/common"
+	ab "github.com/slava-balahontsev/bcnex/protos/orderer"
 )
 
 type ledgerTestable interface {

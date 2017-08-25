@@ -13,11 +13,11 @@ import (
 
 	"github.com/Shopify/sarama"
 	"github.com/golang/protobuf/proto"
-	localconfig "github.com/hyperledger/fabric/orderer/localconfig"
-	"github.com/hyperledger/fabric/orderer/multichain"
-	cb "github.com/hyperledger/fabric/protos/common"
-	ab "github.com/hyperledger/fabric/protos/orderer"
-	"github.com/hyperledger/fabric/protos/utils"
+	localconfig "github.com/slava-balahontsev/bcnex/orderer/localconfig"
+	"github.com/slava-balahontsev/bcnex/orderer/multichain"
+	cb "github.com/slava-balahontsev/bcnex/protos/common"
+	ab "github.com/slava-balahontsev/bcnex/protos/orderer"
+	"github.com/slava-balahontsev/bcnex/protos/utils"
 )
 
 // Used for capturing metrics -- see processMessagesToBlocks

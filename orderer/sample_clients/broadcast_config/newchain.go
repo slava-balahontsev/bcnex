@@ -17,9 +17,9 @@ limitations under the License.
 package main
 
 import (
-	"github.com/hyperledger/fabric/common/configtx"
-	genesisconfig "github.com/hyperledger/fabric/common/configtx/tool/localconfig"
-	cb "github.com/hyperledger/fabric/protos/common"
+	"github.com/slava-balahontsev/bcnex/common/configtx"
+	genesisconfig "github.com/slava-balahontsev/bcnex/common/configtx/tool/localconfig"
+	cb "github.com/slava-balahontsev/bcnex/protos/common"
 )
 
 func newChainRequest(consensusType, creationPolicy, newChannelId string) *cb.Envelope {

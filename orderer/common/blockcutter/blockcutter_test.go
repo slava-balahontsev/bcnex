@@ -20,10 +20,10 @@ import (
 	"bytes"
 	"testing"
 
-	mockconfig "github.com/hyperledger/fabric/common/mocks/config"
-	"github.com/hyperledger/fabric/orderer/common/filter"
-	cb "github.com/hyperledger/fabric/protos/common"
-	ab "github.com/hyperledger/fabric/protos/orderer"
+	mockconfig "github.com/slava-balahontsev/bcnex/common/mocks/config"
+	"github.com/slava-balahontsev/bcnex/orderer/common/filter"
+	cb "github.com/slava-balahontsev/bcnex/protos/common"
+	ab "github.com/slava-balahontsev/bcnex/protos/orderer"
 	logging "github.com/op/go-logging"
 )
 

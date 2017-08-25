@@ -23,10 +23,10 @@ package configupdate
 import (
 	"fmt"
 
-	configtxapi "github.com/hyperledger/fabric/common/configtx/api"
-	"github.com/hyperledger/fabric/common/crypto"
-	cb "github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/utils"
+	configtxapi "github.com/slava-balahontsev/bcnex/common/configtx/api"
+	"github.com/slava-balahontsev/bcnex/common/crypto"
+	cb "github.com/slava-balahontsev/bcnex/protos/common"
+	"github.com/slava-balahontsev/bcnex/protos/utils"
 
 	"github.com/op/go-logging"
 )

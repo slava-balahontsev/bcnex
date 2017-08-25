@@ -17,10 +17,10 @@ limitations under the License.
 package fileledger
 
 import (
-	"github.com/hyperledger/fabric/common/ledger/blkstorage"
-	ledger "github.com/hyperledger/fabric/orderer/ledger"
-	cb "github.com/hyperledger/fabric/protos/common"
-	ab "github.com/hyperledger/fabric/protos/orderer"
+	"github.com/slava-balahontsev/bcnex/common/ledger/blkstorage"
+	ledger "github.com/slava-balahontsev/bcnex/orderer/ledger"
+	cb "github.com/slava-balahontsev/bcnex/protos/common"
+	ab "github.com/slava-balahontsev/bcnex/protos/orderer"
 	"github.com/op/go-logging"
 )
 

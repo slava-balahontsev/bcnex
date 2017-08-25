@@ -22,10 +22,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/orderer/common/filter"
-	cb "github.com/hyperledger/fabric/protos/common"
-	ab "github.com/hyperledger/fabric/protos/orderer"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/slava-balahontsev/bcnex/orderer/common/filter"
+	cb "github.com/slava-balahontsev/bcnex/protos/common"
+	ab "github.com/slava-balahontsev/bcnex/protos/orderer"
+	"github.com/slava-balahontsev/bcnex/protos/utils"
 
 	logging "github.com/op/go-logging"
 	"github.com/stretchr/testify/assert"

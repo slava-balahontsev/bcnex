@@ -17,19 +17,19 @@ limitations under the License.
 package multichain
 
 import (
-	"github.com/hyperledger/fabric/common/config"
-	"github.com/hyperledger/fabric/common/crypto"
-	"github.com/hyperledger/fabric/common/policies"
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/orderer/common/blockcutter"
-	"github.com/hyperledger/fabric/orderer/common/broadcast"
-	"github.com/hyperledger/fabric/orderer/common/configtxfilter"
-	"github.com/hyperledger/fabric/orderer/common/filter"
-	"github.com/hyperledger/fabric/orderer/common/sigfilter"
-	"github.com/hyperledger/fabric/orderer/common/sizefilter"
-	"github.com/hyperledger/fabric/orderer/ledger"
-	cb "github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/slava-balahontsev/bcnex/common/config"
+	"github.com/slava-balahontsev/bcnex/common/crypto"
+	"github.com/slava-balahontsev/bcnex/common/policies"
+	"github.com/slava-balahontsev/bcnex/common/util"
+	"github.com/slava-balahontsev/bcnex/orderer/common/blockcutter"
+	"github.com/slava-balahontsev/bcnex/orderer/common/broadcast"
+	"github.com/slava-balahontsev/bcnex/orderer/common/configtxfilter"
+	"github.com/slava-balahontsev/bcnex/orderer/common/filter"
+	"github.com/slava-balahontsev/bcnex/orderer/common/sigfilter"
+	"github.com/slava-balahontsev/bcnex/orderer/common/sizefilter"
+	"github.com/slava-balahontsev/bcnex/orderer/ledger"
+	cb "github.com/slava-balahontsev/bcnex/protos/common"
+	"github.com/slava-balahontsev/bcnex/protos/utils"
 )
 
 // Consenter defines the backing ordering mechanism

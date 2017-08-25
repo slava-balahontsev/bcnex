@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"testing"
 
-	mockpolicies "github.com/hyperledger/fabric/common/mocks/policies"
-	"github.com/hyperledger/fabric/orderer/common/filter"
-	cb "github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/utils"
+	mockpolicies "github.com/slava-balahontsev/bcnex/common/mocks/policies"
+	"github.com/slava-balahontsev/bcnex/orderer/common/filter"
+	cb "github.com/slava-balahontsev/bcnex/protos/common"
+	"github.com/slava-balahontsev/bcnex/protos/utils"
 
 	"github.com/op/go-logging"
 )

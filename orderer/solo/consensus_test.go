@@ -20,10 +20,10 @@ import (
 	"testing"
 	"time"
 
-	mockconfig "github.com/hyperledger/fabric/common/mocks/config"
-	mockblockcutter "github.com/hyperledger/fabric/orderer/mocks/blockcutter"
-	mockmultichain "github.com/hyperledger/fabric/orderer/mocks/multichain"
-	cb "github.com/hyperledger/fabric/protos/common"
+	mockconfig "github.com/slava-balahontsev/bcnex/common/mocks/config"
+	mockblockcutter "github.com/slava-balahontsev/bcnex/orderer/mocks/blockcutter"
+	mockmultichain "github.com/slava-balahontsev/bcnex/orderer/mocks/multichain"
+	cb "github.com/slava-balahontsev/bcnex/protos/common"
 
 	logging "github.com/op/go-logging"
 	"github.com/stretchr/testify/assert"

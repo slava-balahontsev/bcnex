@@ -19,7 +19,7 @@ package filter
 import (
 	"testing"
 
-	cb "github.com/hyperledger/fabric/protos/common"
+	cb "github.com/slava-balahontsev/bcnex/protos/common"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -13,12 +13,12 @@ import (
 
 	"github.com/Shopify/sarama"
 	"github.com/Shopify/sarama/mocks"
-	mockconfig "github.com/hyperledger/fabric/common/mocks/config"
-	mockblockcutter "github.com/hyperledger/fabric/orderer/mocks/blockcutter"
-	mockmultichain "github.com/hyperledger/fabric/orderer/mocks/multichain"
-	cb "github.com/hyperledger/fabric/protos/common"
-	ab "github.com/hyperledger/fabric/protos/orderer"
-	"github.com/hyperledger/fabric/protos/utils"
+	mockconfig "github.com/slava-balahontsev/bcnex/common/mocks/config"
+	mockblockcutter "github.com/slava-balahontsev/bcnex/orderer/mocks/blockcutter"
+	mockmultichain "github.com/slava-balahontsev/bcnex/orderer/mocks/multichain"
+	cb "github.com/slava-balahontsev/bcnex/protos/common"
+	ab "github.com/slava-balahontsev/bcnex/protos/orderer"
+	"github.com/slava-balahontsev/bcnex/protos/utils"
 	"github.com/stretchr/testify/assert"
 )
 

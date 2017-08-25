@@ -19,12 +19,12 @@ package multichain
 import (
 	"fmt"
 
-	"github.com/hyperledger/fabric/common/config"
-	"github.com/hyperledger/fabric/common/configtx"
-	"github.com/hyperledger/fabric/common/configtx/tool/provisional"
-	"github.com/hyperledger/fabric/orderer/common/blockcutter"
-	cb "github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/slava-balahontsev/bcnex/common/config"
+	"github.com/slava-balahontsev/bcnex/common/configtx"
+	"github.com/slava-balahontsev/bcnex/common/configtx/tool/provisional"
+	"github.com/slava-balahontsev/bcnex/orderer/common/blockcutter"
+	cb "github.com/slava-balahontsev/bcnex/protos/common"
+	"github.com/slava-balahontsev/bcnex/protos/utils"
 )
 
 type mockConsenter struct {

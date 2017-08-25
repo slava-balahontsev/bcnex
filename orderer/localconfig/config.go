@@ -20,18 +20,18 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/common/viperutil"
+	"github.com/slava-balahontsev/bcnex/common/flogging"
+	"github.com/slava-balahontsev/bcnex/common/viperutil"
 
 	"github.com/Shopify/sarama"
 	"github.com/op/go-logging"
 	"github.com/spf13/viper"
 
-	cf "github.com/hyperledger/fabric/core/config"
+	cf "github.com/slava-balahontsev/bcnex/core/config"
 
 	"path/filepath"
 
-	bccsp "github.com/hyperledger/fabric/bccsp/factory"
+	bccsp "github.com/slava-balahontsev/bcnex/bccsp/factory"
 )
 
 const (

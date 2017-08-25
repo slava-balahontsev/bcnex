@@ -19,16 +19,16 @@ package deliver
 import (
 	"io"
 
-	"github.com/hyperledger/fabric/common/policies"
-	"github.com/hyperledger/fabric/orderer/common/filter"
-	"github.com/hyperledger/fabric/orderer/common/sigfilter"
-	"github.com/hyperledger/fabric/orderer/ledger"
-	cb "github.com/hyperledger/fabric/protos/common"
-	ab "github.com/hyperledger/fabric/protos/orderer"
+	"github.com/slava-balahontsev/bcnex/common/policies"
+	"github.com/slava-balahontsev/bcnex/orderer/common/filter"
+	"github.com/slava-balahontsev/bcnex/orderer/common/sigfilter"
+	"github.com/slava-balahontsev/bcnex/orderer/ledger"
+	cb "github.com/slava-balahontsev/bcnex/protos/common"
+	ab "github.com/slava-balahontsev/bcnex/protos/orderer"
 	"github.com/op/go-logging"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/slava-balahontsev/bcnex/protos/utils"
 )
 
 var logger = logging.MustGetLogger("orderer/common/deliver")

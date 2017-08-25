@@ -23,9 +23,9 @@ import (
 	"path/filepath"
 	"sync"
 
-	ledger "github.com/hyperledger/fabric/orderer/ledger"
-	cb "github.com/hyperledger/fabric/protos/common"
-	ab "github.com/hyperledger/fabric/protos/orderer"
+	ledger "github.com/slava-balahontsev/bcnex/orderer/ledger"
+	cb "github.com/slava-balahontsev/bcnex/protos/common"
+	ab "github.com/slava-balahontsev/bcnex/protos/orderer"
 	"github.com/op/go-logging"
 
 	"github.com/golang/protobuf/jsonpb"
