@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/config"
-	configmsp "github.com/hyperledger/fabric/common/config/msp"
-	mmsp "github.com/hyperledger/fabric/common/mocks/msp"
-	cb "github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/slava-balahontsev/bcnex/common/config"
+	configmsp "github.com/slava-balahontsev/bcnex/common/config/msp"
+	mmsp "github.com/slava-balahontsev/bcnex/common/mocks/msp"
+	cb "github.com/slava-balahontsev/bcnex/protos/common"
+	"github.com/slava-balahontsev/bcnex/protos/utils"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/stretchr/testify/assert"

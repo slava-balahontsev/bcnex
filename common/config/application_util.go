@@ -17,9 +17,9 @@ limitations under the License.
 package config
 
 import (
-	cb "github.com/hyperledger/fabric/protos/common"
-	pb "github.com/hyperledger/fabric/protos/peer"
-	"github.com/hyperledger/fabric/protos/utils"
+	cb "github.com/slava-balahontsev/bcnex/protos/common"
+	pb "github.com/slava-balahontsev/bcnex/protos/peer"
+	"github.com/slava-balahontsev/bcnex/protos/utils"
 )
 
 func applicationConfigGroup(orgID string, key string, value []byte) *cb.ConfigGroup {

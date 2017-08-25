@@ -20,8 +20,8 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/ledger/testutil"
-	"github.com/hyperledger/fabric/protos/common"
+	"github.com/slava-balahontsev/bcnex/common/ledger/testutil"
+	"github.com/slava-balahontsev/bcnex/protos/common"
 )
 
 func TestBlockfileStream(t *testing.T) {

@@ -20,13 +20,13 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/configtx/test"
-	"github.com/hyperledger/fabric/common/util"
-	lutils "github.com/hyperledger/fabric/core/ledger/util"
-	"github.com/hyperledger/fabric/protos/common"
-	pb "github.com/hyperledger/fabric/protos/peer"
-	ptestutils "github.com/hyperledger/fabric/protos/testutils"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/slava-balahontsev/bcnexbcnex/common/configtx/test"
+	"github.com/slava-balahontsev/bcnexbcnex/common/util"
+	lutils "github.com/slava-balahontsev/bcnexbcnex/core/ledger/util"
+	"github.com/slava-balahontsev/bcnexbcnex/protos/common"
+	pb "github.com/slava-balahontsev/bcnexbcnex/protos/peer"
+	ptestutils "github.com/slava-balahontsev/bcnexbcnex/protos/testutils"
+	"github.com/slava-balahontsev/bcnexbcnex/protos/utils"
 )
 
 //BlockGenerator generates a series of blocks for testing

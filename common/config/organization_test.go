@@ -19,10 +19,10 @@ package config
 import (
 	"testing"
 
-	mspconfig "github.com/hyperledger/fabric/common/config/msp"
-	fabricconfig "github.com/hyperledger/fabric/core/config"
-	"github.com/hyperledger/fabric/msp"
-	mspprotos "github.com/hyperledger/fabric/protos/msp"
+	mspconfig "github.com/slava-balahontsev/bcnex/common/config/msp"
+	fabricconfig "github.com/slava-balahontsev/bcnex/core/config"
+	"github.com/slava-balahontsev/bcnex/msp"
+	mspprotos "github.com/slava-balahontsev/bcnex/protos/msp"
 	"github.com/stretchr/testify/assert"
 )
 

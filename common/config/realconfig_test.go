@@ -20,12 +20,12 @@ import (
 	"os"
 	"testing"
 
-	. "github.com/hyperledger/fabric/common/config"
-	"github.com/hyperledger/fabric/common/config/msp"
-	"github.com/hyperledger/fabric/common/configtx"
-	"github.com/hyperledger/fabric/common/configtx/tool/localconfig"
-	"github.com/hyperledger/fabric/common/configtx/tool/provisional"
-	cb "github.com/hyperledger/fabric/protos/common"
+	. "github.com/slava-balahontsev/bcnex/common/config"
+	"github.com/slava-balahontsev/bcnex/common/config/msp"
+	"github.com/slava-balahontsev/bcnex/common/configtx"
+	"github.com/slava-balahontsev/bcnex/common/configtx/tool/localconfig"
+	"github.com/slava-balahontsev/bcnex/common/configtx/tool/provisional"
+	cb "github.com/slava-balahontsev/bcnex/protos/common"
 
 	"github.com/stretchr/testify/assert"
 )

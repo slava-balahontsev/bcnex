@@ -20,8 +20,8 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/ledger/testutil"
-	putils "github.com/hyperledger/fabric/protos/utils"
+	"github.com/slava-balahontsev/bcnex/common/ledger/testutil"
+	putils "github.com/slava-balahontsev/bcnex/protos/utils"
 )
 
 func TestBlockSerialization(t *testing.T) {

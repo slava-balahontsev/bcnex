@@ -20,9 +20,9 @@ import (
 	"bytes"
 	"testing"
 
-	genesisconfig "github.com/hyperledger/fabric/common/configtx/tool/localconfig"
-	"github.com/hyperledger/fabric/common/configtx/tool/provisional"
-	. "github.com/hyperledger/fabric/common/tools/protolator"
+	genesisconfig "github.com/slava-balahontsev/bcnex/common/configtx/tool/localconfig"
+	"github.com/slava-balahontsev/bcnex/common/configtx/tool/provisional"
+	. "github.com/slava-balahontsev/bcnex/common/tools/protolator"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/stretchr/testify/assert"

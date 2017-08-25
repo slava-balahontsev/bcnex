@@ -33,7 +33,7 @@ package orderer
 import proto "github.com/golang/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import common "github.com/hyperledger/fabric/protos/common"
+import common "github.com/slava-balahontsev/bcnex/protos/common"
 
 import (
 	context "golang.org/x/net/context"

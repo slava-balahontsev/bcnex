@@ -19,10 +19,10 @@ package sanitycheck
 import (
 	"fmt"
 
-	"github.com/hyperledger/fabric/common/configtx"
-	cb "github.com/hyperledger/fabric/protos/common"
-	mspprotos "github.com/hyperledger/fabric/protos/msp"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/slava-balahontsev/bcnex/common/configtx"
+	cb "github.com/slava-balahontsev/bcnex/protos/common"
+	mspprotos "github.com/slava-balahontsev/bcnex/protos/msp"
+	"github.com/slava-balahontsev/bcnex/protos/utils"
 
 	"github.com/golang/protobuf/proto"
 )

@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric/common/config/msp"
-	"github.com/hyperledger/fabric/common/util"
-	cb "github.com/hyperledger/fabric/protos/common"
+	"github.com/slava-balahontsev/bcnex/bccsp"
+	"github.com/slava-balahontsev/bcnex/common/config/msp"
+	"github.com/slava-balahontsev/bcnex/common/util"
+	cb "github.com/slava-balahontsev/bcnex/protos/common"
 )
 
 // Channel config keys

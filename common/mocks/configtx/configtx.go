@@ -17,11 +17,11 @@ limitations under the License.
 package configtx
 
 import (
-	"github.com/hyperledger/fabric/common/config"
-	mockpolicies "github.com/hyperledger/fabric/common/mocks/policies"
-	"github.com/hyperledger/fabric/common/policies"
-	"github.com/hyperledger/fabric/msp"
-	cb "github.com/hyperledger/fabric/protos/common"
+	"github.com/slava-balahontsev/bcnex/common/config"
+	mockpolicies "github.com/slava-balahontsev/bcnex/common/mocks/policies"
+	"github.com/slava-balahontsev/bcnex/common/policies"
+	"github.com/slava-balahontsev/bcnex/msp"
+	cb "github.com/slava-balahontsev/bcnex/protos/common"
 
 	"github.com/golang/protobuf/proto"
 )

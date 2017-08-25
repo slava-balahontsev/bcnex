@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/configtx/api"
-	mockconfigtx "github.com/hyperledger/fabric/common/mocks/configtx"
-	mockpolicies "github.com/hyperledger/fabric/common/mocks/policies"
-	"github.com/hyperledger/fabric/common/policies"
-	cb "github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/slava-balahontsev/bcnex/common/configtx/api"
+	mockconfigtx "github.com/slava-balahontsev/bcnex/common/mocks/configtx"
+	mockpolicies "github.com/slava-balahontsev/bcnex/common/mocks/policies"
+	"github.com/slava-balahontsev/bcnex/common/policies"
+	cb "github.com/slava-balahontsev/bcnex/protos/common"
+	"github.com/slava-balahontsev/bcnex/protos/utils"
 
 	"github.com/stretchr/testify/assert"
 )

@@ -20,10 +20,10 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/hyperledger/fabric/common/config"
-	"github.com/hyperledger/fabric/common/configtx/api"
-	"github.com/hyperledger/fabric/common/policies"
-	cb "github.com/hyperledger/fabric/protos/common"
+	"github.com/slava-balahontsev/bcnex/common/config"
+	"github.com/slava-balahontsev/bcnex/common/configtx/api"
+	"github.com/slava-balahontsev/bcnex/common/policies"
+	cb "github.com/slava-balahontsev/bcnex/protos/common"
 
 	"github.com/golang/protobuf/jsonpb"
 	"github.com/golang/protobuf/proto"

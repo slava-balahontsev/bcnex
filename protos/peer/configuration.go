@@ -19,8 +19,8 @@ package peer
 import (
 	"fmt"
 
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/msp"
+	"github.com/slava-balahontsev/bcnex/protos/common"
+	"github.com/slava-balahontsev/bcnex/protos/msp"
 
 	"github.com/golang/protobuf/proto"
 )

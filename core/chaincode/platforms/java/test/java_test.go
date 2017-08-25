@@ -20,10 +20,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/core/container"
-	"github.com/hyperledger/fabric/core/testutil"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/slava-balahontsev/bcnex/common/util"
+	"github.com/slava-balahontsev/bcnex/core/container"
+	"github.com/slava-balahontsev/bcnex/core/testutil"
+	pb "github.com/slava-balahontsev/bcnex/protos/peer"
 )
 
 func TestMain(m *testing.M) {

@@ -19,12 +19,12 @@ package msp
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/common/cauthdsl"
-	"github.com/hyperledger/fabric/core/config"
-	"github.com/hyperledger/fabric/msp"
-	cb "github.com/hyperledger/fabric/protos/common"
-	mspprotos "github.com/hyperledger/fabric/protos/msp"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/slava-balahontsev/bcnex/common/cauthdsl"
+	"github.com/slava-balahontsev/bcnex/core/config"
+	"github.com/slava-balahontsev/bcnex/msp"
+	cb "github.com/slava-balahontsev/bcnex/protos/common"
+	mspprotos "github.com/slava-balahontsev/bcnex/protos/msp"
+	"github.com/slava-balahontsev/bcnex/protos/utils"
 	"github.com/stretchr/testify/assert"
 )
 

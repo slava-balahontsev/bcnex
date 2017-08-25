@@ -26,9 +26,9 @@ import (
 	"path/filepath"
 
 	docker "github.com/fsouza/go-dockerclient"
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/common/util"
-	cutil "github.com/hyperledger/fabric/core/container/util"
+	"github.com/slava-balahontsev/bcnex/common/flogging"
+	"github.com/slava-balahontsev/bcnex/common/util"
+	cutil "github.com/slava-balahontsev/bcnex/core/container/util"
 )
 
 var logger = flogging.MustGetLogger("util")

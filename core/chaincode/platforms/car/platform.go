@@ -25,9 +25,9 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/hyperledger/fabric/core/chaincode/platforms/util"
-	cutil "github.com/hyperledger/fabric/core/container/util"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/slava-balahontsev/bcnex/core/chaincode/platforms/util"
+	cutil "github.com/slava-balahontsev/bcnex/core/container/util"
+	pb "github.com/slava-balahontsev/bcnex/protos/peer"
 )
 
 // Platform for the CAR type

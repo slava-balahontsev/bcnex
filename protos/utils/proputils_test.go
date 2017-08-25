@@ -26,13 +26,13 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/msp"
-	mspmgmt "github.com/hyperledger/fabric/msp/mgmt"
-	"github.com/hyperledger/fabric/msp/mgmt/testtools"
-	"github.com/hyperledger/fabric/protos/common"
-	pb "github.com/hyperledger/fabric/protos/peer"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/slava-balahontsev/bcnex/common/util"
+	"github.com/slava-balahontsev/bcnex/msp"
+	mspmgmt "github.com/slava-balahontsev/bcnex/msp/mgmt"
+	"github.com/slava-balahontsev/bcnex/msp/mgmt/testtools"
+	"github.com/slava-balahontsev/bcnex/protos/common"
+	pb "github.com/slava-balahontsev/bcnex/protos/peer"
+	"github.com/slava-balahontsev/bcnex/protos/utils"
 	"github.com/stretchr/testify/assert"
 )
 

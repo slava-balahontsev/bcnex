@@ -17,7 +17,7 @@ limitations under the License.
 package peer
 
 import (
-	"github.com/hyperledger/fabric/common/flogging"
+	"github.com/slava-balahontsev/bcnex/common/flogging"
 	logging "github.com/op/go-logging"
 )
 

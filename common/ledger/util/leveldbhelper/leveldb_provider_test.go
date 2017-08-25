@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/ledger/testutil"
+	"github.com/slava-balahontsev/bcnex/common/ledger/testutil"
 )
 
 func TestDBBasicWriteAndReads(t *testing.T) {

@@ -12,11 +12,11 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	mockmsp "github.com/hyperledger/fabric/common/mocks/msp"
-	"github.com/hyperledger/fabric/common/util"
-	cb "github.com/hyperledger/fabric/protos/common"
-	pb "github.com/hyperledger/fabric/protos/peer"
-	"github.com/hyperledger/fabric/protos/utils"
+	mockmsp "github.com/slava-balahontsev/bcnex/common/mocks/msp"
+	"github.com/slava-balahontsev/bcnex/common/util"
+	cb "github.com/slava-balahontsev/bcnex/protos/common"
+	pb "github.com/slava-balahontsev/bcnex/protos/peer"
+	"github.com/slava-balahontsev/bcnex/protos/utils"
 	"github.com/stretchr/testify/assert"
 )
 

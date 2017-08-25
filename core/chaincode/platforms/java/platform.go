@@ -25,8 +25,8 @@ import (
 	"net/url"
 	"strings"
 
-	cutil "github.com/hyperledger/fabric/core/container/util"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	cutil "github.com/slava-balahontsev/bcnex/core/container/util"
+	pb "github.com/slava-balahontsev/bcnex/protos/peer"
 	//	"path/filepath"
 )
 

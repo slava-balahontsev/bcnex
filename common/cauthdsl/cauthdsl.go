@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/msp"
-	cb "github.com/hyperledger/fabric/protos/common"
-	mb "github.com/hyperledger/fabric/protos/msp"
+	"github.com/slava-balahontsev/bcnex/common/flogging"
+	"github.com/slava-balahontsev/bcnex/msp"
+	cb "github.com/slava-balahontsev/bcnex/protos/common"
+	mb "github.com/slava-balahontsev/bcnex/protos/msp"
 
 	"github.com/op/go-logging"
 )

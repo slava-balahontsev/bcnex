@@ -23,8 +23,8 @@ import (
 
 	"errors"
 
-	cutil "github.com/hyperledger/fabric/core/container/util"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	cutil "github.com/slava-balahontsev/bcnex/core/container/util"
+	pb "github.com/slava-balahontsev/bcnex/protos/peer"
 )
 
 //tw is expected to have the chaincode in it from GenerateHashcode.

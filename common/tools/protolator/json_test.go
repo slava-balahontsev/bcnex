@@ -24,7 +24,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/tools/protolator/testprotos"
+	"github.com/slava-balahontsev/bcnex/common/tools/protolator/testprotos"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/stretchr/testify/assert"

@@ -19,13 +19,13 @@ package configtx
 import (
 	"fmt"
 
-	"github.com/hyperledger/fabric/common/cauthdsl"
-	"github.com/hyperledger/fabric/common/config"
-	configtxmsp "github.com/hyperledger/fabric/common/config/msp"
-	"github.com/hyperledger/fabric/common/configtx/api"
-	"github.com/hyperledger/fabric/common/policies"
-	"github.com/hyperledger/fabric/msp"
-	cb "github.com/hyperledger/fabric/protos/common"
+	"github.com/slava-balahontsev/bcnex/common/cauthdsl"
+	"github.com/slava-balahontsev/bcnex/common/config"
+	configtxmsp "github.com/slava-balahontsev/bcnex/common/config/msp"
+	"github.com/slava-balahontsev/bcnex/common/configtx/api"
+	"github.com/slava-balahontsev/bcnex/common/policies"
+	"github.com/slava-balahontsev/bcnex/msp"
+	cb "github.com/slava-balahontsev/bcnex/protos/common"
 
 	"github.com/golang/protobuf/proto"
 )

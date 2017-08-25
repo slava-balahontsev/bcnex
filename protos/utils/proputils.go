@@ -25,13 +25,13 @@ import (
 	"encoding/hex"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric/bccsp/factory"
-	"github.com/hyperledger/fabric/common/crypto"
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/core/chaincode/platforms"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/peer"
+	"github.com/slava-balahontsev/bcnex/bccsp"
+	"github.com/slava-balahontsev/bcnex/bccsp/factory"
+	"github.com/slava-balahontsev/bcnex/common/crypto"
+	"github.com/slava-balahontsev/bcnex/common/util"
+	"github.com/slava-balahontsev/bcnex/core/chaincode/platforms"
+	"github.com/slava-balahontsev/bcnex/protos/common"
+	"github.com/slava-balahontsev/bcnex/protos/peer"
 )
 
 // GetChaincodeInvocationSpec get the ChaincodeInvocationSpec from the proposal

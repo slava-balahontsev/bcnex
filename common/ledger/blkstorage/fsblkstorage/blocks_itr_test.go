@@ -20,8 +20,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/common/ledger/testutil"
-	"github.com/hyperledger/fabric/protos/common"
+	"github.com/slava-balahontsev/bcnex/common/ledger/testutil"
+	"github.com/slava-balahontsev/bcnex/protos/common"
 )
 
 func TestBlocksItrBlockingNext(t *testing.T) {

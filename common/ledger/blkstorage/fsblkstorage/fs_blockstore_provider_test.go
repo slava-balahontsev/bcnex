@@ -21,12 +21,12 @@ import (
 
 	"fmt"
 
-	"github.com/hyperledger/fabric/common/ledger/blkstorage"
-	"github.com/hyperledger/fabric/common/ledger/testutil"
-	"github.com/hyperledger/fabric/core/ledger/util"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/peer"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/slava-balahontsev/bcnex/common/ledger/blkstorage"
+	"github.com/slava-balahontsev/bcnex/common/ledger/testutil"
+	"github.com/slava-balahontsev/bcnex/core/ledger/util"
+	"github.com/slava-balahontsev/bcnex/protos/common"
+	"github.com/slava-balahontsev/bcnex/protos/peer"
+	"github.com/slava-balahontsev/bcnex/protos/utils"
 )
 
 func TestMultipleBlockStores(t *testing.T) {

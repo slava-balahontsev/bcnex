@@ -19,7 +19,7 @@ package config
 import (
 	"fmt"
 
-	"github.com/hyperledger/fabric/common/config/msp"
+	"github.com/slava-balahontsev/bcnex/common/config/msp"
 
 	"github.com/golang/protobuf/proto"
 )

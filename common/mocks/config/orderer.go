@@ -19,8 +19,8 @@ package config
 import (
 	"time"
 
-	"github.com/hyperledger/fabric/common/config"
-	ab "github.com/hyperledger/fabric/protos/orderer"
+	"github.com/slava-balahontsev/bcnexbcnex/common/config"
+	ab "github.com/slava-balahontsev/bcnexbcnex/protos/orderer"
 )
 
 // Orderer is a mock implementation of config.Orderer

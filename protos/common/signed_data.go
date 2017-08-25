@@ -19,7 +19,7 @@ package common
 import (
 	"fmt"
 
-	"github.com/hyperledger/fabric/common/util"
+	"github.com/slava-balahontsev/bcnex/common/util"
 
 	"github.com/golang/protobuf/proto"
 )

@@ -22,8 +22,8 @@ import (
 	"strings"
 	"testing"
 
-	cb "github.com/hyperledger/fabric/protos/common"
-	ab "github.com/hyperledger/fabric/protos/orderer"
+	cb "github.com/slava-balahontsev/bcnex/protos/common"
+	ab "github.com/slava-balahontsev/bcnex/protos/orderer"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/stretchr/testify/assert"

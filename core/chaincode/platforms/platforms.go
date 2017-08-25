@@ -27,14 +27,14 @@ import (
 
 	"io/ioutil"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/common/metadata"
-	"github.com/hyperledger/fabric/core/chaincode/platforms/car"
-	"github.com/hyperledger/fabric/core/chaincode/platforms/golang"
-	"github.com/hyperledger/fabric/core/chaincode/platforms/java"
-	"github.com/hyperledger/fabric/core/config"
-	cutil "github.com/hyperledger/fabric/core/container/util"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/slava-balahontsev/bcnex/common/flogging"
+	"github.com/slava-balahontsev/bcnex/common/metadata"
+	"github.com/slava-balahontsev/bcnex/core/chaincode/platforms/car"
+	"github.com/slava-balahontsev/bcnex/core/chaincode/platforms/golang"
+	"github.com/slava-balahontsev/bcnex/core/chaincode/platforms/java"
+	"github.com/slava-balahontsev/bcnex/core/config"
+	cutil "github.com/slava-balahontsev/bcnex/core/container/util"
+	pb "github.com/slava-balahontsev/bcnex/protos/peer"
 	"github.com/spf13/viper"
 )
 
@@ -126,7 +126,7 @@ func generateDockerfile(platform Platform, cds *pb.ChaincodeDeploymentSpec, tls 
 	buf = append(buf, fmt.Sprintf("ENV CORE_CHAINCODE_BUILDLEVEL=%s", metadata.Version))
 
 	if tls {
-		const guestTLSPath = "/etc/hyperledger/fabric/peer.crt"
+		const guestTLSPath = "/etc/slava-balahontsev/bcnex/peer.crt"
 
 		buf = append(buf, "ENV CORE_PEER_TLS_ROOTCERT_FILE="+guestTLSPath)
 		buf = append(buf, "COPY peer.crt "+guestTLSPath)

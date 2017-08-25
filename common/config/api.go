@@ -21,9 +21,9 @@ package config
 import (
 	"time"
 
-	cb "github.com/hyperledger/fabric/protos/common"
-	ab "github.com/hyperledger/fabric/protos/orderer"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	cb "github.com/slava-balahontsev/bcnex/protos/common"
+	ab "github.com/slava-balahontsev/bcnex/protos/orderer"
+	pb "github.com/slava-balahontsev/bcnex/protos/peer"
 )
 
 // Org stores the common organizational config
